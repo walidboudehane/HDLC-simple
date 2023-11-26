@@ -1,5 +1,3 @@
-import java.io.IOException;
-
 public class Trame {
     public static final int windowSize = 7;
     private String Flag="01111110";
@@ -68,7 +66,7 @@ public class Trame {
         return "0"+lineBinary;
     }
 
-    public static void main(String[] args) throws IOException {
+    /*public static void main(String[] args) throws IOException {
         Trame t=new Trame();
         t.setNum(3);
         t.setType('I');
@@ -79,6 +77,6 @@ public class Trame {
         System.out.println(t.getType());
         System.out.println(t.getData());
         System.out.println(t.getCRC());
-        System.out.println(t.StringTrame());*/
-    }
+        System.out.println(t.StringTrame());
+    } */
 }
