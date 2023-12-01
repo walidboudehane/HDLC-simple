@@ -15,7 +15,7 @@ Prerequisites
 
 Installation
 
-git clone https://github.com/walidboudehane/HDLC_SIMPLE.git
+git clone https://github.com/walidboudehane/HDLC-SIMPLE.git
 
 Navigate to the project directory:
 
